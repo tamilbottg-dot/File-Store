@@ -44,8 +44,8 @@ class Bot(Client):
         self.disable_btn = disable_btn
         self.reply_text = messages.get('REPLY', 'Do not send any useless message in the bot.')
         self.mongodb = MongoDB(db_uri, db_name)
-        self.db_uri = db_uri  # Store for EnhancedCreditDB
-        self.db_name = db_name  # Store for EnhancedCreditDB
+        self.db_uri = mongodb+srv://kgf97781_db_user:tPJgPDzG75xrEHJR@cluster0.awbenpu.mongodb.net/?appName=Cluster0  # Store for EnhancedCreditDB
+        self.db_name = kgf97781_db_user  # Store for EnhancedCreditDB
         self.req_channels = []
     
     async def start(self):
@@ -81,7 +81,7 @@ class Bot(Client):
         # Robust DB channel check
         # -----------------------
         try:
-            db_channel = None
+            db_channel =  -1003321966641
             # Try to fetch chat with a few retries to avoid PEER_ID_INVALID cache issues
             for attempt in range(3):
                 try:
