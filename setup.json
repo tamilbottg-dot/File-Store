@@ -1,7 +1,7 @@
 [
     {
         "session": "ses1",
-        "token": "BOT_TOKEN",
+        "token": "6862837436:AAFBPjR0yxwQSkEyTkZbBoFRsWNemATrQ1c",
         "api_id": "24168862",
         "api_hash": "916a9424dd1e58ab7955001ccc0172b3",
         "workers": 8,
@@ -70,7 +70,7 @@
     },
     {
         "session": "ses2",
-        "token": "BOT_TOKEN",
+        "token": "6862837436:AAFBPjR0yxwQSkEyTkZbBoFRsWNemATrQ1c",
         "api_id": "24168862",
         "api_hash": "916a9424dd1e58ab7955001ccc0172b3",
         "workers": 8,
